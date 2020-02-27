@@ -1,26 +1,19 @@
 /*Comentario*/
 .Comment{
   display: flex;
-}
+} 
 
-.Avatar{
-
-}
-
-/* essa div é para (avatar/nome) e (text) */
-.Comment div{
+/* essa li é para (avatar/nome) e (text) */
+.Comment li{
+  margin-left: 10px;
   width: 622px;
+  padding: 10px 15px 10px 15px;
   border-radius: 20px;
   background: rgb(228, 224, 224);
-  
 }
 
-.Author{
-
-}
-
+/* essa div é para o texto */
 .CommentText{
-  font-weight: bold;
   font-size: 13px;
   line-height: 20px;
   color: #3E3E3E;

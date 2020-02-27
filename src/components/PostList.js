@@ -9,9 +9,8 @@ class PostList extends Component{
       {
         id: 1,
         author: {
-          name: 'Julio Alcantara',
-          avatar:
-            'https://pbs.twimg.com/profile_images/2205986846/gravatar-square-full_400x400.jpg',
+          name: 'Renato Barboza',
+          avatar: 'https://avatars3.githubusercontent.com/u/8043534?s=460&v=4',
         },
         date: '04 Jun 2019',
         content: 'Pessoal, alguém sabe se a Rocketseat está contratando?',
@@ -31,9 +30,9 @@ class PostList extends Component{
       {
         id: 2,
         author: {
-          name: 'Gabriel Lisboa',
+          name: 'Alexei Abianna',
           avatar:
-            'https://images.unsplash.com/photo-1506919258185-6078bba55d2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=515&q=80',
+            'https://avatars0.githubusercontent.com/u/48830898?s=460&v=4',
         },
         date: '04 Jun 2019',
         content: `Fala galera, beleza?
@@ -53,9 +52,9 @@ Estou fazendo o Bootcamp GoStack da Rocketseat e está sendo muito massa! Algué
           {
             id: 2,
             author: {
-              name: 'Cezar Toledo',
+              name: 'Andressa Gaspar',
               avatar:
-                'https://images.unsplash.com/photo-1496345875659-11f7dd282d1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80',
+                'https://avatars3.githubusercontent.com/u/40497345?s=400&v=4',
             },
             content:
               'Que maaaaassa! Estou pensando em me inscrever na próxima turma pra ver qual é desse Bootcamp GoStack, dizem que os devs saem de lá com super poderes!',
@@ -65,8 +64,8 @@ Estou fazendo o Bootcamp GoStack da Rocketseat e está sendo muito massa! Algué
       {
         id: 3,
         author: {
-          name: 'Julio Alcantara',
-          avatar: 'https://api.adorable.io/avatars/96/abott@adorable.png',
+          name: 'Renato Barboza',
+          avatar: 'https://avatars3.githubusercontent.com/u/8043534?s=460&v=4',
         },
         date: '04 Jun 2019',
         content: 'Pessoal, alguém sabe se a Rocketseat está contratando?',
@@ -75,7 +74,7 @@ Estou fazendo o Bootcamp GoStack da Rocketseat e está sendo muito massa! Algué
             id: 3,
             author: {
               name: 'Diego Fernandes',
-              avatar: 'https://api.adorable.io/avatars/96/abott@adorable.png',
+              avatar: 'https://avatars0.githubusercontent.com/u/2254731?s=460&v=4',
             },
             content: 'Conteúdo do comentário',
           },
@@ -88,9 +87,9 @@ Estou fazendo o Bootcamp GoStack da Rocketseat e está sendo muito massa! Algué
   render(){
     const { posts } = this.state;
     return (
-      <div className="Postlist">
-        {posts.map(post => (<Post key={post.id} data={post} />))}
-      </div>
+        <div className="Postlist">
+          {posts.map(post => (<Post key={post.id} data={post}/>))}
+        </div>
     );
   };
 }
