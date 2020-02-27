@@ -1,6 +1,7 @@
 /*Comentario*/
 .Comment{
   display: flex;
+  padding-bottom: 5px;
 } 
 
 /* essa li é para (avatar/nome) e (text) */
