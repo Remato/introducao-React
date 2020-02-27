@@ -1,0 +1,15 @@
+.Header {
+  background-color: #4A90E2;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+}
+
+.Profile{
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  padding-right: 30px;
+  color: #fff;
+}
